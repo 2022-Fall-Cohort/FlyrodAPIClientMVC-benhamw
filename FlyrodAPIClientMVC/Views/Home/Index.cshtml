@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<body>
+    <div align="center" class="menu-header">
+        <h1>
+            <span style="font-size:40px; text-align:center; color:green">Classic Flyrod Database</span>
+        </h1>
+
+    </div>
+    <br />
+    <div align="left" class="menu">
+        <div align="center">
+            <h1>
+                <span style="font-size:30px;color:green">Main Menu</span>
+            </h1>
+        </div>
+        <br />
+        <ol>
+            <li>
+                <a style="color: indianred" href='@Url.Action("Index", "Flyrods")'>Display</a> the list of classic flyrods
+            </li>
+            <li>
+                <a style="color: indianred" href='@Url.Action("Index", "Makers")'>Display</a> the list of classic flyrod makers
+            </li>
+            <li>
+                <a style="color: indianred" href='@Url.Action("Create", "Flyrods")'>Add</a> a new classic flyrod
+            </li>
+            <li>
+                <a style="color: indianred" href='@Url.Action("Create", "Makers")'>Add</a> a new flyrod maker
+            </li>
+        </ol>
+    </div>
+</body>

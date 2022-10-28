@@ -1,0 +1,84 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FlyrodAPIClientMVC
+build_property.RootNamespace = FlyrodAPIClientMVC
+build_property.ProjectDir = C:\Users\willi\source\repos\FlyrodAPIClientMVC\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\willi\source\repos\FlyrodAPIClientMVC
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/willi/source/repos/FlyrodAPIClientMVC/Views/Flyrods/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmx5cm9kc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/willi/source/repos/FlyrodAPIClientMVC/Views/Flyrods/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmx5cm9kc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/willi/source/repos/FlyrodAPIClientMVC/Views/Flyrods/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmx5cm9kc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/willi/source/repos/FlyrodAPIClientMVC/Views/Flyrods/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmx5cm9kc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/willi/source/repos/FlyrodAPIClientMVC/Views/Flyrods/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmx5cm9kc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/willi/source/repos/FlyrodAPIClientMVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/willi/source/repos/FlyrodAPIClientMVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/willi/source/repos/FlyrodAPIClientMVC/Views/Makers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFrZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/willi/source/repos/FlyrodAPIClientMVC/Views/Makers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFrZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/willi/source/repos/FlyrodAPIClientMVC/Views/Makers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFrZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/willi/source/repos/FlyrodAPIClientMVC/Views/Makers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFrZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/willi/source/repos/FlyrodAPIClientMVC/Views/Makers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFrZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/willi/source/repos/FlyrodAPIClientMVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/willi/source/repos/FlyrodAPIClientMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/willi/source/repos/FlyrodAPIClientMVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/willi/source/repos/FlyrodAPIClientMVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/willi/source/repos/FlyrodAPIClientMVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-oeynxri6bk

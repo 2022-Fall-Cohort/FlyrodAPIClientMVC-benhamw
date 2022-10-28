@@ -1,0 +1,72 @@
+﻿@model FlyrodAPIClientMVC.Models.Flyrod
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Flyrod</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Model" class="control-label"></label>
+                <input asp-for="Model" class="form-control" />
+                <span asp-validation-for="Model" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LengthFeet" class="control-label"></label>
+                <input asp-for="LengthFeet" class="form-control" />
+                <span asp-validation-for="LengthFeet" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Sections" class="control-label"></label>
+                <input asp-for="Sections" class="form-control" />
+                <span asp-validation-for="Sections" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LineWeight" class="control-label"></label>
+                <input asp-for="LineWeight" class="form-control" />
+                <span asp-validation-for="LineWeight" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="YearMade" class="control-label"></label>
+                <input asp-for="YearMade" class="form-control" />
+                <span asp-validation-for="YearMade" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Type" class="control-label"></label>
+                <input asp-for="Type" class="form-control" />
+                <span asp-validation-for="Type" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Construction" class="control-label"></label>
+                <input asp-for="Construction" class="form-control" />
+                <span asp-validation-for="Construction" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RodImage" class="control-label"></label>
+                <input asp-for="RodImage" class="form-control" />
+                <span asp-validation-for="RodImage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MakerId" class="control-label"></label>
+                <select asp-for="MakerId" class ="form-control" asp-items="ViewBag.MakerId"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
