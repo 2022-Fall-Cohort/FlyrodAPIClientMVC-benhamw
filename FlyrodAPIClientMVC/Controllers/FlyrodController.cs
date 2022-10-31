@@ -79,7 +79,7 @@ namespace FlyrodAPIClientMVC.Controllers
         // POST: Flyrod/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,StudioId, MainCharacterId")] Flyrod flyrod)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Model,LengthFeet,Sections,LineWeight,YearMade,Type,Construction,RodImage,MakerId,Maker)")] Flyrod flyrod)
         {
             if (id != flyrod.Id)
             {

@@ -29,8 +29,9 @@ namespace FlyrodAPIClientMVC.Services
             var responseGet = await _client.GetAsync(request);
 
             var response = await responseGet.ReadContentAsync<Flyrod>();
-
-            var flyrod = new Flyrod(response.Id, response.Model, response.LengthFeet, response.Sections, response.LineWeight, response.YearMade, response.Type, response.Construction, response.RodImage, response.MakerId);
+            
+            var maker = new Maker { Name = response.Maker.Name };
+            var flyrod = new Flyrod(response.Id, response.Model, response.LengthFeet, response.Sections, response.LineWeight, response.YearMade, response.Type, response.Construction, response.RodImage, response.MakerId, maker);
           
 
             return flyrod;

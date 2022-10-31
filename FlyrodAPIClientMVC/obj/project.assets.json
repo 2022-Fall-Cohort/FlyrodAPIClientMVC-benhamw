@@ -9923,11 +9923,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\willi\\source\\repos\\FlyrodAPIClientMVC\\FlyrodAPIClientMVC.csproj",
+      "projectUniqueName": "C:\\Users\\willi\\source\\repos\\FlyrodAPIClientMVC-benhamw\\FlyrodAPIClientMVC\\FlyrodAPIClientMVC.csproj",
       "projectName": "FlyrodAPIClientMVC",
-      "projectPath": "C:\\Users\\willi\\source\\repos\\FlyrodAPIClientMVC\\FlyrodAPIClientMVC.csproj",
+      "projectPath": "C:\\Users\\willi\\source\\repos\\FlyrodAPIClientMVC-benhamw\\FlyrodAPIClientMVC\\FlyrodAPIClientMVC.csproj",
       "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\willi\\source\\repos\\FlyrodAPIClientMVC\\obj\\",
+      "outputPath": "C:\\Users\\willi\\source\\repos\\FlyrodAPIClientMVC-benhamw\\FlyrodAPIClientMVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config",

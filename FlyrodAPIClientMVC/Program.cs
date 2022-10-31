@@ -6,6 +6,7 @@ namespace FlyrodAPIClientMVC
     public class Program
     {
         public static ServiceDescriptor? flyrod { get; private set; }
+        public static ServiceDescriptor? maker { get; private set; }
 
         public static void Main(string[] args)
         {
@@ -15,7 +16,10 @@ namespace FlyrodAPIClientMVC
             builder.Services.AddControllersWithViews();
 
             builder.Services.AddHttpClient<IFlyrodService, FlyrodService>(c =>
-            c.BaseAddress = new Uri("https://localhost:7256/"));
+            c.BaseAddress = new Uri("https://localhost:7078/"));
+
+            builder.Services.AddHttpClient<IMakerService, MakerService>(c =>
+            c.BaseAddress = new Uri("https://localhost:7078/"));
 
             var app = builder.Build();
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ENdIqyv1CmrVzqlx0U+zv9XEyNaGQx6W6y98ybGAgPFLhEsqVgzLk1Ag5rSCAJGnpMJUFXRKL6bC6SK6Ptl7vw==",
+  "dgSpecHash": "01grH6uBTtlhODUTM+aUWjkt/DBCMAHJfE8YK8RCDyVYKUGy8Av+uqnIK3EuqSHnnKlRvs2OMcMjg+wR+sgihQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\willi\\source\\repos\\FlyrodAPIClientMVC\\FlyrodAPIClientMVC.csproj",
+  "projectFilePath": "C:\\Users\\willi\\source\\repos\\FlyrodAPIClientMVC-benhamw\\FlyrodAPIClientMVC\\FlyrodAPIClientMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\willi\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\willi\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
