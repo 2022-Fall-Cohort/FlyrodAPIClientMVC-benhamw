@@ -11,9 +11,8 @@
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="MakerId" class="control-label"></label>
-                <input asp-for="MakerId" class="form-control" />
-                <span asp-validation-for="MakerId" class="text-danger"></span>
+                Maker
+                <select asp-for="MakerId" class="form-control" asp-items=@ViewBag.MakerId></select>
             </div>
             <div class="form-group">
                 <label asp-for="Model" class="control-label"></label>

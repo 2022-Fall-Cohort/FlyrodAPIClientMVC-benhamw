@@ -4,20 +4,24 @@ using System.Net.Http.Formatting;
 using System.Net.Http.Headers;
 using FlyrodAPIClientMVC.Models;
 using FlyrodAPIClientMVC.Services.Interfaces;
+using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
 
 namespace FlyrodAPIClientMVC.Controllers
 {
     public class FlyrodController : Controller
     {
         private IFlyrodService? _service;
+        private IMakerService? _serviceMaker;
 
         private static readonly HttpClient client = new HttpClient();
 
         private string requestUri = "https://localhost:7078/api/Flyrod/";
 
-        public FlyrodController(IFlyrodService service)
+        public FlyrodController(IFlyrodService service, IMakerService serviceMaker)
         {
             _service = service ?? throw new ArgumentNullException(nameof(service));
+            _serviceMaker = serviceMaker ?? throw new ArgumentNullException(nameof(serviceMaker));
 
             client.DefaultRequestHeaders.Accept.Clear();
 
@@ -48,8 +52,10 @@ namespace FlyrodAPIClientMVC.Controllers
         }
 
         // GET: Flyrod/Create
-        public ActionResult Create()
+        public async Task<IActionResult> Create()
         {
+            var response = await _serviceMaker.FindAll();
+            ViewBag.MakerId = response;
             return View();
         }
 
