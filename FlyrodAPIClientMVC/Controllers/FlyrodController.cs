@@ -55,7 +55,8 @@ namespace FlyrodAPIClientMVC.Controllers
         public async Task<IActionResult> Create()
         {
             var response = await _serviceMaker.FindAll();
-            ViewBag.MakerId = response;
+            ViewData["MakerId"] = new SelectList(response, "Id", "Name");
+            //ViewBag.MakerId = response;
             return View();
         }
 
@@ -73,6 +74,9 @@ namespace FlyrodAPIClientMVC.Controllers
         // GET: Flyrod/Edit/5
         public async Task<IActionResult> Edit(int id)
         {
+            var response = await _serviceMaker.FindAll();
+            ViewData["MakerId"] = new SelectList(response, "Id", "Name");
+            
             var flyrod = await _service.FindOne(id);
             if (flyrod == null)
             {
