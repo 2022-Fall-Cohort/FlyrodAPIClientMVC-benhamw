@@ -39,6 +39,10 @@
     <tbody>
         @foreach (var item in Model)
         {
+            Console.Write("Array element: " + item);
+        }
+        @foreach (var item in Model)
+        {
             <tr>
                 <td>
                     @Html.DisplayFor(modelItem => item.Maker.Name)
